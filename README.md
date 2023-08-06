@@ -1,7 +1,7 @@
 # Instant-Weather
-## Exercice Javascript
+## Exercice Javascript (V1)
 
-Cet exercice a pour objectif de :
+Cet exercice a pour objectifs de :
 
 -	Utiliser une API conformément à sa documentation
 -	Manipuler le DOM pour intégrer dynamiquement du contenu dans une page HTML
