@@ -16,7 +16,7 @@ body {
   max-width: 1280px;
   background-color: var(--color-primary);
   font-size: 1.25rem;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 header {
