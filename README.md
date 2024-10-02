@@ -1,6 +1,8 @@
 # Instant-Weather
 ## Exercice Javascript (V1)
 
+📝Lien du projet : https://princecorg.github.io/Instant-Weather/
+
 Cet exercice a pour objectifs de :
 
 -	Utiliser une API conformément à sa documentation
