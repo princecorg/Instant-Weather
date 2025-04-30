@@ -32,12 +32,12 @@
        communeSelect.style.display = "block";
        validationButton.style.display = "block";
     }   
-    else {
-      let message = document.createElement("p");
-      message.textContent = "Le code postal saisi n'est pas valide";
-      document.body.appendChild(message);
-      setTimeout(() => location.reload(), 5000); // attente de 5 secondes avant de recharger la page
-    }
+    // else {
+    //   let message = document.createElement("p");
+    //   message.textContent = "Le code postal saisi n'est pas valide";
+    //   document.body.appendChild(message);
+    //   setTimeout(() => location.reload(), 5000); // attente de 5 secondes avant de recharger la page
+    // }
   }
   // Fonction pour effectuer la requête API de météo en utilisant le code de la commune sélectionnée
   async function fetchMeteoByCommune(selectedCommune) {
