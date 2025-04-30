@@ -32,12 +32,23 @@
        communeSelect.style.display = "block";
        validationButton.style.display = "block";
     }   
-    // else {
-    //   let message = document.createElement("p");
-    //   message.textContent = "Le code postal saisi n'est pas valide";
-    //   document.body.appendChild(message);
-    //   setTimeout(() => location.reload(), 5000); // attente de 5 secondes avant de recharger la page
-    // }
+  //   else {
+  //   // Supprimer un message précédent s’il existe déjà
+  //   const existingMessage = document.getElementById("error-message");
+  //   if (!existingMessage) {
+  //     const message = document.createElement("p");
+  //     message.id = "error-message";
+  //     message.textContent = "Le code postal saisi n'est pas valide";
+  //     document.body.appendChild(message);
+  //   }
+    
+  //   // Masquer les éléments inutiles
+  //   communeSelect.style.display = "none";
+  //   validationButton.style.display = "none";
+
+  //   // Recharger la page après 5 secondes
+  //   setTimeout(() => location.reload(), 5000);
+  // }
   }
   // Fonction pour effectuer la requête API de météo en utilisant le code de la commune sélectionnée
   async function fetchMeteoByCommune(selectedCommune) {
