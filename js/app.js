@@ -1,4 +1,3 @@
-document.addEventListener("DOMContentLoaded", () => {
   // Sélection des éléments
   const codePostalInput = document.getElementById("code-postal");
   const communeSelect = document.getElementById("communeSelect");
@@ -82,4 +81,4 @@ document.addEventListener("DOMContentLoaded", () => {
       }
     }
   });
-});
+
