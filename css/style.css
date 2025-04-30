@@ -83,6 +83,13 @@ h1 {
   cursor: pointer;
 }
 
+.errorMessage {
+  color: red;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+}
+
 #validationButton:hover {
   background-color: var(--color-primary);
   border: 2px solid var(--color-secondary);
@@ -153,5 +160,12 @@ h1 {
 
   #weatherInformation div {
     width: 98%;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  #cityForm {
+    width: 95%;
+    margin: 8px auto;
   }
 }
