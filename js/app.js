@@ -22,11 +22,8 @@ document.addEventListener("DOMContentLoaded", () => {
   // Fonction pour afficher les communes dans la liste déroulante
   function displayCommunes(data) {
     communeSelect.innerHTML = "";
-    // if (data.length === 1) {
-    //   const commune = data[0];
-    //   communeSelect.innerHTML = `<option value="${commune.code}">${commune.nom}</option>`;
-    // } else if (data.length > 1) 
-    if (data.length >=1){
+  // S'il y a au moins une commune retournée dans data
+    if (data.length){
       data.forEach((commune) => {
         const option = document.createElement("option");
         option.value = commune.code;
