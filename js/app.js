@@ -76,7 +76,7 @@
   // Ajout de l'écouteur d'événement "click" sur le bouton de validation
   validationButton.addEventListener("click", async () => {
     const selectedCommune = communeSelect.value;
-    if (selectedCommune != null) {
+    if (selectedCommune) { // si selectedCommune n'est pas vide
       try {
         const data = await fetchMeteoByCommune(selectedCommune);
         createCard(data);
