@@ -1,5 +1,5 @@
 function createCard(data) {
-  // Créer de nouvelles divs
+  // Créer de nouvelles div
   let weatherTmin = document.createElement("div");
   let weatherTmax = document.createElement("div");
   let weatherPrain = document.createElement("div");
